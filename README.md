@@ -23,7 +23,7 @@ After applying for an account, you can check your information here, like your AP
 
 2. I recommend you use pyinstaller to package it as an .exe file
 
-### 3. possible problem
+## possible problem
 
 1. It is very possible to register hotkey conflicts in use, you can see Microsoft documentation to solve
     [RegisterHotKey_URL](https://learn.microsoft.com/zh-cn/windows/win32/api/winuser/nf-winuser-registerhotkey)
