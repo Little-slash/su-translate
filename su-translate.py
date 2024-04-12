@@ -133,8 +133,8 @@ def truncate(q):
 
 def run1(text1):
     uuid01 = str(uuid.uuid1())
-    APP_KEY = '083a4adf60f03782'
-    APP_SECRET = 'Hz48kvkjdkXU5v76U9uOR4x3CqWvHRIH'
+    APP_KEY = 'xxx'
+    APP_SECRET = 'xxxx'
     url3 = 'https://openapi.youdao.com/api'
     curtime = str(int(time.time()))
     signStr = APP_KEY + truncate(text1) + uuid01 + curtime + APP_SECRET
